@@ -8,7 +8,7 @@
             }
             
             body {
-                background: url(../img/fone.jpg);
+                background: url("../img/fone.jpg ");
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
