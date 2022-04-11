@@ -4,11 +4,11 @@
             
             @font-face {
                 font-family: "Depot";
-                src: url("css/fonts/Depot.ttf ");
+                src: url("../fonts/Depot.ttf ");
             }
             
             body {
-                background: url(/img/fone.jpg);
+                background: url(../img/fone.jpg);
             }
             
             .menu {
