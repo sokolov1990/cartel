@@ -494,29 +494,74 @@ img {
     }
 }
 
-@media screen and (max-width: 955px) {
-    .text_block1,
-    .text_block2,
-    .text_block3,
-    .text_block4 {
-        font-size: 16px;
-    }
-    table {
-        margin-top: 1%;
-        margin: auto;
-        display: block;
-        width: 40%;
-        color: white;
-        font-size: 15px;
-        color: white;
-    }
-    td {
-        width: 5%;
-    }
-    #carouselExampleControls,
-    #carouselExampleControls2,
-    #carouselExampleControls3 {
-        width: 40%;
-        margin-left: 30%;
-    }
-}
+ @media screen and (max-width: 955px) {
+     .text_block1,
+     .text_block2,
+     .text_block3,
+     .text_block4 {
+         font-size: 16px;
+     }
+     table {
+         margin-top: 1%;
+         margin-left: 15%;
+         display: block;
+         width: 75%;
+         color: white;
+         font-size: 15px;
+         color: white;
+     }
+     td {
+         width: 5%;
+     }
+     #carouselExampleControls,
+     #carouselExampleControls2,
+     #carouselExampleControls3 {
+         width: 60%;
+         margin-left: 20%;
+     }
+ }
+ 
+ @media screen and (max-width: 655px) {
+     #carouselExampleControls,
+     #carouselExampleControls2,
+     #carouselExampleControls3 {
+         width: 80%;
+         margin-left: 10%;
+     }
+     .text1,
+     .text2 {
+         display: none;
+     }
+     .logo {
+         width: 80%;
+         margin-top: 16%;
+     }
+     .back,
+     .down,
+     .first,
+     .second,
+     .third,
+     .fourth {
+         display: inline-block;
+         text-align: center;
+         width: 25%;
+         margin-left: 5%;
+     }
+     iframe {
+         width: 99%;
+     }
+     .kontakt1 {
+         display: block;
+         width: 95%;
+     }
+     .text_block4 {
+         width: 95%;
+     }
+     .text_block1,
+     .text_block2,
+     .text_block3,
+     .text_block4 {
+         width: 95%;
+         text-align: center;
+     }
+ }
