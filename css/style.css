@@ -545,6 +545,7 @@ img {
          display: inline-block;
          text-align: center;
          width: 25%;
+         font-size: 18px;
          margin-left: 5%;
      }
      iframe {
